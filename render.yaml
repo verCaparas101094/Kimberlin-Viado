@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: kimberlin-viado
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
