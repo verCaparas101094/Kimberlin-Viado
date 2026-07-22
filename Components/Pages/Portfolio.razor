@@ -1,0 +1,78 @@
+@page "/"
+
+<PageTitle>Kimberlin Viado | Product Designer</PageTitle>
+
+<main id="top">
+    <section class="hero grid-surface" aria-labelledby="hero-title">
+        <header class="site-header">
+            <a class="brand" href="#top" aria-label="Kimberlin Viado home">K<span>.</span></a>
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#projects">Projects</a>
+                <a href="#about">About me</a>
+                <a href="#resume">Resume</a>
+            </nav>
+            <a class="contact-button" href="mailto:hello@kimberlinviado.com">Get in touch.</a>
+        </header>
+
+        <div class="hero-content">
+            <div class="hero-portrait" aria-hidden="true"><img src="assets/hero-portrait.png" alt="" /></div>
+            <h1 id="hero-title"><span aria-hidden="true">👋</span> Hi there, I’m Kim<span class="accent">!</span></h1>
+            <p class="role">Product Designer</p>
+            <p class="hero-summary">I love turning complex problems into simple, intuitive digital experiences through research, strategy, and thoughtful product design.</p>
+            <a class="scroll-button" href="#projects" aria-label="Scroll to featured projects"><img src="assets/scroll-button.svg" alt="" /></a>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Featured Projects<span>.</span></h2>
+        <div class="projects-grid">
+            @for (var index = 0; index < 4; index++)
+            {
+                <article class="project-card">
+                    <div class="project-cover" aria-label="Investa social feed interface shown in light and dark modes" role="img">
+                        <img class="social-light" src="assets/social-light.png" alt="" />
+                        <span class="dark-preview">
+                            <img src="assets/social-dark.png" alt="" />
+                            <img src="assets/social-dark-overlay.png" alt="" />
+                        </span>
+                    </div>
+                    <div class="project-copy">
+                        <span class="project-tag">Redesign</span>
+                        <h3>Investa, Social Feed</h3>
+                        <p>Focus on improving content discovery, increase engagement and making overall browsing experience feel more intuitive.</p>
+                        <a class="read-more" href="#" aria-label="Read more about Investa Social Feed">Read more <img src="assets/arrow-right.svg" alt="" /></a>
+                    </div>
+                </article>
+            }
+        </div>
+        <a class="all-projects" href="#about">View all projects <img src="assets/arrow-right.svg" alt="" /></a>
+    </section>
+
+    <section class="about-section grid-surface" id="about" aria-labelledby="about-title">
+        <div class="about-canvas">
+            <div class="about-title-bubble">
+                <h2 id="about-title">Hey, I’m Kim! ✨</h2>
+                <img src="assets/location-arrow.svg" alt="" aria-hidden="true" />
+            </div>
+            <div class="about-message message-one">I’m a product designer by day and a proud fur mom of two fluffy Pomeranians 24/7. 🐶🤍</div>
+            <div class="about-message message-two">Away from my laptop, I’m hanging out with my Pomeranians, exploring creative hobbies, binge-watching One Piece or pretending this is my last design tweak. 😂</div>
+            <div class="about-photo" aria-hidden="true"><img src="assets/about-photo.png" alt="" /></div>
+            <div class="about-message message-three">I love turning messy, complicated ideas into products that actually make sense (and hopefully make people smile a little, too). 😊</div>
+            <div class="about-message message-four">✨ Life’s too short for confusing interfaces, so I design products that make people think, “Well... that was easy.” ✨</div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="resume" aria-labelledby="testimonials-title">
+        <h2 id="testimonials-title">Kind words<span>.</span></h2>
+        <p class="testimonials-intro">A few kind words from the people who trusted me with pixels, products, and plenty of brainstorming sessions.</p>
+        <blockquote>
+            <p>Kim is a product designer who delivers thoughtful work with a genuine understanding of people.</p>
+            <footer>Product teammate</footer>
+        </blockquote>
+    </section>
+
+    <footer class="site-footer grid-surface">
+        <a class="brand" href="#top" aria-label="Back to top">K<span>.</span></a>
+        <p>Designed with care by Kimberlin Viado.</p>
+    </footer>
+</main>
