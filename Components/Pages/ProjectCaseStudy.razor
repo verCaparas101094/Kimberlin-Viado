@@ -1,0 +1,61 @@
+@page "/projects/investa-social-feed/{ProjectNumber:int}"
+
+<PageTitle>Investa Social Feed Redesign | Kimberlin Viado</PageTitle>
+
+<main class="case-page" id="top">
+    <section class="case-hero grid-surface">
+        <header class="site-header">
+            <a class="brand" href="/" aria-label="Kimberlin Viado home">K<span>.</span></a>
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="/#projects">Projects</a>
+                <a href="/#about">About me</a>
+                <a href="/#resume">Resume</a>
+            </nav>
+            <a class="primary-button header-cta" href="mailto:hello@kimberlinviado.com">Get in touch.</a>
+        </header>
+
+        <div class="case-cover" aria-label="Investa social feed interface shown in light and dark modes" role="img">
+            <img src="/assets/social-light.png" alt="" />
+            <span>
+                <img src="/assets/social-dark.png" alt="" />
+                <img src="/assets/social-dark-overlay.png" alt="" />
+            </span>
+        </div>
+    </section>
+
+    <section class="case-content" aria-labelledby="case-title">
+        <div class="case-copy">
+            <h1 id="case-title">Investa, Social Feed Redesign</h1>
+            <a class="case-live-link" href="https://www.investagrams.com/" target="_blank" rel="noopener noreferrer">
+                This is live! Check it out here
+                <img src="/assets/arrow-right.svg" alt="" />
+            </a>
+
+            <h2>Overview</h2>
+            <p>The Investagrams Social Feed is where investors share market insights, discuss stocks, and discover opportunities from the community. While the existing feed already had a strong user base, usability issues and unclear content prioritization made it difficult for users to quickly find the information that mattered most.</p>
+            <p>The redesign focused on improving content discovery, increasing engagement, and making the overall browsing experience feel more intuitive while supporting Investagrams’ expansion into multiple financial communities.</p>
+
+            <div class="case-feature">
+                <h2>Redesigned the Feed Experience</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="closing-section case-closing" aria-labelledby="case-closing-title">
+        <h2 id="case-closing-title">Thanks for stopping by! ✨</h2>
+        <p>I hope you enjoyed scrolling through my work as much as I enjoyed creating it.<br />If something caught your eye (or you just want to chat about design, products, or fluffy Pomeranians 🐶), my inbox is always open.</p>
+        <p>Let’s create something people will love!</p>
+        <a class="primary-button" href="mailto:hello@kimberlinviado.com">Let’s Connect ✨</a>
+    </section>
+
+    <footer class="site-footer grid-surface">
+        <a class="brand" href="#top" aria-label="Back to top">K<span>.</span></a>
+        <p>Designed with care, fueled by curiosity, and probably approved by two fluffy Pomeranians. 🐶🤍</p>
+        <a class="linkedin-button" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </footer>
+</main>
+
+@code {
+    [Parameter]
+    public int ProjectNumber { get; set; }
+}

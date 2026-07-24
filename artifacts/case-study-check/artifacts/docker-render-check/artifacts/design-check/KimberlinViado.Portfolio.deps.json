@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KimberlinViado.Portfolio/1.0.0": {
+        "runtime": {
+          "KimberlinViado.Portfolio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KimberlinViado.Portfolio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
