@@ -4,5 +4,6 @@
 bin
 obj
 publish
+artifacts
 .verify-build
 *.log
