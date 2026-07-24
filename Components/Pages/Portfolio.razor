@@ -11,29 +11,36 @@
                 <a href="#about">About me</a>
                 <a href="#resume">Resume</a>
             </nav>
-            <a class="contact-button" href="mailto:hello@kimberlinviado.com">Get in touch.</a>
+            <a class="primary-button header-cta" href="mailto:hello@kimberlinviado.com">Get in touch.</a>
         </header>
 
         <div class="hero-content">
-            <div class="hero-portrait" aria-hidden="true"><img src="assets/hero-portrait.png" alt="" /></div>
-            <div class="hero-voices" aria-hidden="true">
-                <span class="voice-tag voice-lyza"><b>Lyzha Villanueva</b><img src="assets/arrow-hero-lyza.svg" alt="" /></span>
-                <span class="voice-tag voice-lyza-two"><b>Lyzha Villanueva</b><img src="assets/arrow-hero-lyza-secondary.svg" alt="" /></span>
-                <span class="voice-tag voice-jm"><b>JM Marquez</b><img src="assets/arrow-hero-jm.svg" alt="" /></span>
-                <span class="voice-tag voice-melo"><b>Melo Ampongan</b><img src="assets/arrow-hero-melo.svg" alt="" /></span>
-                <span class="voice-tag voice-jaykey"><img src="assets/arrow-hero-jaykey.svg" alt="" /><b>Jaykey Del Mar</b></span>
-                <span class="voice-tag voice-nick"><img src="assets/arrow-hero-nick.svg" alt="" /><b>Nick Suarez</b></span>
-                <span class="voice-tag voice-cris"><img src="assets/arrow-hero-cris.svg" alt="" /><b>Cris Go</b></span>
+            <div class="hero-portrait" aria-hidden="true">
+                <img src="assets/hero-portrait.png" alt="" />
             </div>
+
+            <div class="hero-callouts" aria-hidden="true">
+                <span class="callout product-thinking"><b>Product Thinking</b><img src="assets/arrow-hero-lyza.svg" alt="" /></span>
+                <span class="callout ux-strategy"><b>UX Strategy</b><img src="assets/arrow-hero-cris.svg" alt="" /></span>
+                <span class="callout ui-design"><b>UI Design</b><img src="assets/arrow-hero-jaykey.svg" alt="" /></span>
+                <span class="callout user-flows"><b>User flows</b><img src="assets/arrow-hero-nick.svg" alt="" /></span>
+                <span class="callout responsive-design"><img src="assets/arrow-hero-melo.svg" alt="" /><b>Responsive Design</b></span>
+                <span class="callout user-research"><img src="assets/arrow-hero-jaykey.svg" alt="" /><b>User Research</b></span>
+                <span class="callout prototyping"><img src="assets/arrow-hero-jm.svg" alt="" /><b>Prototyping</b></span>
+                <span class="callout design-system"><img src="assets/arrow-hero-cris.svg" alt="" /><b>Design System</b></span>
+            </div>
+
             <h1 id="hero-title"><span aria-hidden="true">👋</span> Hi there, I’m Kim<span class="accent">!</span></h1>
             <p class="role">Product Designer</p>
             <p class="hero-summary">I love turning complex problems into simple, intuitive digital experiences through research, strategy, and thoughtful product design.</p>
-            <a class="scroll-button" href="#projects" aria-label="Scroll to featured projects"><img src="assets/scroll-button.svg" alt="" /></a>
+            <a class="scroll-button" href="#projects" aria-label="Scroll to projects"><img src="assets/scroll-button.svg" alt="" /></a>
         </div>
     </section>
 
     <section class="projects-section" id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">Featured Projects<span>.</span></h2>
+        <h2 id="projects-title">Products I’ve helped build<span>.</span></h2>
+        <p class="section-intro">A selection of products and features I’ve designed to solve real user problems, improve experiences, and drive meaningful impact.</p>
+
         <div class="projects-grid">
             @for (var index = 0; index < 4; index++)
             {
@@ -54,6 +61,7 @@
                 </article>
             }
         </div>
+
         <a class="all-projects" href="#about">View all projects <img src="assets/arrow-right.svg" alt="" /></a>
     </section>
 
@@ -64,7 +72,7 @@
                 <img src="assets/location-arrow.svg" alt="" aria-hidden="true" />
             </div>
             <div class="about-message message-one">I’m a product designer by day and a proud fur mom of two fluffy Pomeranians 24/7. 🐶🤍</div>
-            <div class="about-message message-two">Away from my laptop, I’m hanging out with my Pomeranians, exploring creative hobbies, binge-watching One Piece or pretending this is my last design tweak. 😂</div>
+            <div class="about-message message-two">Away from my laptop, I’m hanging out with my dogs, exploring creative hobbies, binge-watching One Piece or pretending this is my last design tweak. 😂</div>
             <div class="about-photo" aria-hidden="true"><img src="assets/about-photo.png" alt="" /></div>
             <div class="about-message message-three">I love turning messy, complicated ideas into products that actually make sense (and hopefully make people smile a little, too). 😊</div>
             <div class="about-message message-four">✨ Life’s too short for confusing interfaces, so I design products that make people think, “Well... that was easy.” ✨</div>
@@ -73,10 +81,11 @@
 
     <section class="testimonials-section" id="resume" aria-labelledby="testimonials-title">
         <h2 id="testimonials-title">Kind words<span>.</span></h2>
-        <p class="testimonials-intro">A few kind words from the people who trusted me with pixels, products, and plenty of brainstorming sessions.</p>
+        <p class="section-intro">A few kind words from the people who trusted me with pixels, products, and plenty of brainstorming sessions.</p>
+
         <div class="testimonials-stage">
             <article class="testimonial-entry entry-jaykey tone-blue">
-                <blockquote>Kim has an incredible ability to simplify complex problems. She always asks the right questions and turns messy ideas into intuitive experiences</blockquote>
+                <blockquote>“Kim has an incredible ability to simplify complex problems. She always asks the right questions and turns messy ideas into intuitive experiences.”</blockquote>
                 <div class="testimonial-meta"><span class="person-role">Investa, Design Lead</span><span class="person-name"><img src="assets/arrow-quote-jaykey.svg" alt="" />Jaykey Del Mar</span></div>
             </article>
             <article class="testimonial-entry entry-lyza tone-red">
@@ -102,8 +111,16 @@
         </div>
     </section>
 
+    <section class="closing-section" aria-labelledby="closing-title">
+        <h2 id="closing-title">Thanks for stopping by! ✨</h2>
+        <p>I hope you enjoyed scrolling through my work as much as I enjoyed creating it.<br />If something caught your eye (or you just want to chat about design, products, or fluffy Pomeranians 🐶), my inbox is always open.</p>
+        <p>Let’s create something people will love!</p>
+        <a class="primary-button" href="mailto:hello@kimberlinviado.com">Let’s Connect ✨</a>
+    </section>
+
     <footer class="site-footer grid-surface">
         <a class="brand" href="#top" aria-label="Back to top">K<span>.</span></a>
-        <p>Designed with care by Kimberlin Viado.</p>
+        <p>Designed with care, fueled by curiosity, and probably approved by two fluffy Pomeranians. 🐶🤍</p>
+        <a class="linkedin-button" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </footer>
 </main>
